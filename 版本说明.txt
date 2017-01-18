@@ -364,3 +364,11 @@ Preview开始之前加入清空帧存。
 V5.2.102.36 VC
 完善KSJ_MU3L2K7C_AGYYO, KSJ_MU3L4K3M_AGYYO，自动黑平衡效果改善。
 0帧和坏帧不做对设备进行恢复操作。
+
+V5.2.102.38 VC
+添加了与线阵相机增益相关的函数
+	KSJ_AWAIBA_GetGainRange
+	KSJ_AWAIBA_SetGain
+	KSJ_AWAIBA_GetGain
+添加了自动黑平衡范围获取函数
+	KSJ_AWAIBA_GetBlackLevelRange
