@@ -372,3 +372,10 @@ V5.2.102.38 VC
 	KSJ_AWAIBA_GetGain
 添加了自动黑平衡范围获取函数
 	KSJ_AWAIBA_GetBlackLevelRange
+
+V5.2.102.40 VC
+修改了KSJ_AWAIBA_GetGain获取不到增益的问题。
+
+
+V5.2.102.42 VC
+增加了MUC500M_MRYYO,MUC500C_MRYYO的支持。

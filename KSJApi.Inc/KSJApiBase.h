@@ -70,7 +70,7 @@ extern "C"{
 		KSJ_MUC130C_MRYY,    // Not Support
 		KSJ_MUC130M_MRYY,    // Not Support
 		KSJ_MUC320C_MRYY,    // Not Support
-		KSJ_MUC500C_MRYY,    // Not Support
+		KSJ_MUC500C_MRYYO,   // Jelly2
 		KSJ_MUC500M_MRYYO,   // Jelly2
 		KSJ_MUC900C_MRYY,    // Not Support
 		KSJ_MUC1000C_MRYY,   // Not Support
