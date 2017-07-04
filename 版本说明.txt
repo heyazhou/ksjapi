@@ -391,3 +391,18 @@ V5.2.104.46 VC
 修改了MU3S1200C/M的曝光计算
 初始化自动白平衡区域为最大视场，以前版本为4个像素宽高，会导致如果用户不设置区域，计算结果不正确。
 
+V5.2.104.48 VC
+为了判断是否是切换触发模式产生的一帧，不再进行REREAD_WHEN_BADFRAME。当切换模式时会获取到一帧坏帧,返回（RET_INVALIDFRAME或RET_ZEROFRAME)。
+
+V5.2.104.50 VC
+修改KSJ_RecordStartExEx和KSJ_RecordAddOneFrame，此2函数与nChannel无关。
+
+V5.2.104.52 VC
+为MU3H2000C/M添加skip2模式。
+修改MU3H2000C/M功能列表。
+
+V5.2.108.52 VC
+支持MU3H500C/M, MU3H230C/M
+
+V5.2.108.54 VC
+使用KSJBayerFilter动态链接库。MU3H2000C/M模式切换同步曝光时间。
