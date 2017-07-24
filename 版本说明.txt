@@ -406,3 +406,30 @@ V5.2.108.52 VC
 
 V5.2.108.54 VC
 使用KSJBayerFilter动态链接库。MU3H2000C/M模式切换同步曝光时间。
+
+V5.2.108.56 vc
+增加了Flat Field Correct相关的函数
+KSJ_SetFlatFieldCorrectionFieldOfView
+KSJ_GetFlatFieldCorrectionFieldOfView
+KSJ_MakeDarkFrame
+KSJ_MakeFlatFieldFrame
+KSJ_PreviewSetFlatFieldCorrection
+KSJ_PreviewGetFlatFieldCorrection
+KSJ_CaptureSetFlatFieldCorrection
+KSJ_CaptureGetFlatFieldCorrection
+KSJ_SaveFlatFieldCorrection
+KSJ_LoadFlatFieldCorrection
+
+v5.2.108.58 vc
+对MU3H500C/M相机提速。
+
+v5.2.108.60 vc
+PreviewCallBackEx返回DC内存指针。
+
+V5.3.108.60 VC
+增加了如下三个函数：
+	KSJ_PreviewStartEx
+	KSJ_PreviewGetStatusEx
+	KSJ_PreviewGetFrameRateEx
+可以设置开启预览时，采集与显示并行。当并行预览开启时，可以获取采集帧率和显示帧率。在并行预览时，用户调用采集内部将不再关闭预览，内部会暂停主预览再自动切换到采集视场进行采集，采集结束后会自动恢复预览。
+
