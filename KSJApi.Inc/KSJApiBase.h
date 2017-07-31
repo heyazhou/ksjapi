@@ -139,7 +139,9 @@ extern "C"{
 		KSJ_MU3HS230C_SGYYO,   // imx174 
 		KSJ_MU3HS230M_SGYYO,
 		KSJ_MU3HI400C_IGYYO, 
-		KSJ_MU3HI500M_IGYYO
+		KSJ_MU3HI400M_IGYYO,
+
+		KSJ_TEST_CAMERA
 	};
 	// Enable or Disable Log output
 	KSJ_API  int __stdcall KSJ_LogSet(bool bEnable, const TCHAR *pszFolder);
