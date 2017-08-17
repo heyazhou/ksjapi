@@ -439,3 +439,9 @@ V5.3.108.62 VC
 
 v5.3.108.64
 修改了由于5.2.108.56之后，FFC引起的对CCD相机无法识别的问题。
+
+v5.3.108.66
+修正MU3H2000C/M 初始化曝光值错误。
+
+V5.3.108.68
+有些相机KSJ_GetParamRange的KSJ_EXPOSURE返回RET_NOTSUPPORT错误。
