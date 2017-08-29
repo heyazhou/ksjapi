@@ -445,3 +445,6 @@ v5.3.108.66
 
 V5.3.108.68
 有些相机KSJ_GetParamRange的KSJ_EXPOSURE返回RET_NOTSUPPORT错误。
+
+V5.3.111.68
+增加了对MU3HI400C/M的支持，偏移，增益条件有些问题还不明确，等厂家反馈，可以给客户测试。
