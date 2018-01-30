@@ -87,8 +87,8 @@ KSJ_API  int __stdcall KSJ_GammaLutDataProgram( int nChannel, unsigned short *pD
 KSJ_API  int __stdcall KSJ_GammaLutDataReadout( int nChannel, unsigned short *pData, int *pnWords );
 增加了Gamma Lut的固化。
 增加了对白平衡校正矩阵，色彩校正矩阵的固化及上载。
-KSJ_API  int __stdcall KSJ_GammaLutInfoProgram  ( int nChannel, WORD wValue  );
-KSJ_API  int __stdcall KSJ_GammaLutInfoReadout  ( int nChannel, WORD *pValue );   
+KSJ_API  int __stdcall KSJ_GammaLutInfoProgram  ( int nChannel, unsigned short wValue  );
+KSJ_API  int __stdcall KSJ_GammaLutInfoReadout  ( int nChannel, unsigned short *pValue );   
 KSJ_API  int __stdcall KSJ_HWBMatrixProgram( int nChannel, float fMatrix[3] );
 KSJ_API  int __stdcall KSJ_HWBMatrixReadout( int nChannel, float fMatrix[3] );
 KSJ_API  int __stdcall KSJ_HWBMatrixUpload( int nChannel, float fMatrix[3] );
@@ -479,3 +479,8 @@ v5.3.115.84
 2017.11.23
 v5.3.115.86
 修复MU3C1400C不出图问题。no binning。
+
+2018.1.30
+v6.0.117.60
+支持MU3S210C.还不支持MU3S210M
+这个版本对原有程序架构做了较大的改动，先不推荐给老客户更新使用，除非使用新的型号相机。
