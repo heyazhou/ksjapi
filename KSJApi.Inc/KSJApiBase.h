@@ -109,8 +109,8 @@ extern "C"{
 		KSJ_MUC131M_MRYN,      // 76 OEM Device
 		KSJ_MU3C501C_MRYYO,    // 77 DELETE Not Support
 		KSJ_MU3C501M_MRYYO,    // 78 DELETE Not Support
-		KSJ_MU3C121C_MGYYO,    // 79 DELETE Not Support
-		KSJ_MU3C121M_MGYYO,    // 80 DELETE Not Support
+		KSJ_MUC120C_MGYYO,     // 79 Jelly2
+		KSJ_MUC120M_MGYYO,     // 80 Jelly2
 		KSJ_MU3E131C_EGYYO,    // 81 DELETE Not Support
 		KSJ_MU3E131M_EGYYO,    // 82 DELETE Not Support
 		KSJ_MU3E201C_EGYYO,    // 83 DELETE Not Support
