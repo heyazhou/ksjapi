@@ -503,3 +503,16 @@ v6.0.117.3
 v6.0.117.4
 支持MUC120C(MGYYO),MUC120M(MGYYO)两款新的替代型号相机。
 测试了4K.
+
+2018.2.2
+v6.0.117.5
+增加了4个Flash函数KSJ_FlashEnableSet，KSJ_FlashEnableGet，KSJ_FlashInvertSet，KSJ_FlashInvertGet替代原来的KSJ_FlashControlSet，KSJ_FlashControlGet
+
+
+2018.2.6
+v6.0.119.5
+增加MU3I130C_IGYYO, MU3I130M_IGYYO支持。
+
+2018.3.19
+v6.0.119.6
+修改FFC文件加载不生效的问题。
