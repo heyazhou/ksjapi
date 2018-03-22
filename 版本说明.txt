@@ -516,3 +516,19 @@ v6.0.119.5
 2018.3.19
 v6.0.119.6
 修改FFC文件加载不生效的问题。
+
+2018.3.19
+v6.0.119.7
+增加FPGA支持的ROI功能。
+支持Calibration接口。	
+    KSJ_PreviewSetCalibration
+	KSJ_PreviewGetCalibration
+	KSJ_CaptureSetCalibration
+	KSJ_CaptureGetCalibration
+	KSJ_LoadCalibrationMapFile
+	KSJ_SetCalibrationMapMode
+	KSJ_GetCalibrationMapMode
+
+修改MU3I130支持硬件Flip，软件Mirror。修改MU3I130 Capability，时钟提高。
+修改MU3I130的曝光计算ms为单位。
+
