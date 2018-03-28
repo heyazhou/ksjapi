@@ -531,4 +531,12 @@ v6.0.119.7
 
 修改MU3I130支持硬件Flip，软件Mirror。修改MU3I130 Capability，时钟提高。
 修改MU3I130的曝光计算ms为单位。
+注意：此版本不支持MU3E200C(EGYYO) FPGA6.1版本。
+
+2018.3.23
+v6.0.121.8
+增加MU3S321C/M型号相机。
+修改lut，gamma lut的恢复加载按照eeprom中的表进行恢复。
+修改MU3C120C/M的Program gamma lut, programm workingmodeEx, colormode, colormatrix功能属性。
+放开bmFlashEnable判断，功能列表需重新整理。
 
