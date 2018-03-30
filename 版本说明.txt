@@ -540,3 +540,10 @@ v6.0.121.8
 修改MU3C120C/M的Program gamma lut, programm workingmodeEx, colormode, colormatrix功能属性。
 放开bmFlashEnable判断，功能列表需重新整理。
 
+
+2018.3.30
+v6.0.121.9
+修改ffc文件保存加载错误。改变了ffc计算方式，只要blackfram和flatframe都采集完成后即计算校正。
+调整了MU3I401C的Flip。
+
+
