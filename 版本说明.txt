@@ -551,5 +551,15 @@ v6.0.121.9
 v6.0.121.10
 修复：对于fpga不支持roi的某些设备进行读取会死机。
 
+2018.4.4
+v6.0.121.11
+统一WB，CCM matrix矩阵。
+2018.4.9
+79 muc120c support program color mode and color matrix.
+2018.4.10
+加入
+KSJ_CalibrationProgram,这个函数调用时，会根据当前采集视场的宽度和高度进行写入。
+KSJ_CalibrationReadout
+设备初始后会从rom中自动读取校正参数。
 
 -----
