@@ -562,4 +562,12 @@ KSJ_CalibrationProgram,这个函数调用时，会根据当前采集视场的宽度和高度进行写入。
 KSJ_CalibrationReadout
 设备初始后会从rom中自动读取校正参数。
 
+
+2018.4.11
+v6.0.121.12
+CalibrationProgram and autoload for 128 and 1024 eeprom ok!
+修改了KSJ_AEStart回调时机，正在调节中不进行回调操作。
+KSJ_AEStartEx回调机制不变。
+
+
 -----
