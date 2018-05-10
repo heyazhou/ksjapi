@@ -570,4 +570,9 @@ CalibrationProgram and autoload for 128 and 1024 eeprom ok!
 KSJ_AEStartEx回调机制不变。
 
 
------
+2018.4.26
+v6.0.121.15
+增加了两个烧写保存参数接口KSJ_ParamProgram，KSJ_ParamErease。当用户调用KSJ_ParamProgram后，会将当前的预览视场，采集视场，曝光，增益，Flip，Mirror，白平衡设置WB，颜色校正设置CCM进行保存（保存至硬件），
+下次启动KSJApi库时会自动加载，如果不想让KSJApi库自动加载，可以调用KSJ_ParamErease进行清除处理。清除之后，KSJApi会根据硬件的实际默认值进行加载。
+增加了I400相机的ROI功能（需升级硬件程序支持）。
+修正sensor_matrix。
