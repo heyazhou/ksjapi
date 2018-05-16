@@ -46,8 +46,8 @@ extern "C"{
 		KSJ_UC1000C_MRNN,      // 14 Not Support
 		KSJ_UC900C_MRYN,       // 15 Not Support
 		KSJ_UC1000C_MRYN,      // 16 Not Support
-		KSJ_UC130C_MRYY,       // 17 Elanus2 Not Support
-		KSJ_UC130M_MRYY,       // 18 Elanus2 Not Support
+		KSJ_MUC120C_MRYYO,     // 17 Jelly2 V6.0.121.16
+		KSJ_MUC120M_MRYYO,     // 18 Jelly2 V6.0.121.16
 		KSJ_UD140C_SGNN,       // 19 Not Support
 		KSJ_UD140M_SGNN,       // 20 Not Support
 		KSJ_UC36C_MGNN,        // 21 Elanus2 Not Support
@@ -150,7 +150,6 @@ extern "C"{
 		KSJ_MU3I130M_IGYYO,    // 118
 		KSJ_MU3S321C_SGYYO,    // 119
 		KSJ_MU3S321M_SGYYO     // 120
-		// KSJ_MU3C130C_MGYYO    // 121
 	};
 	// Enable or Disable Log output
 	KSJ_API  int __stdcall KSJ_LogSet(bool bEnable, const TCHAR *pszFolder);

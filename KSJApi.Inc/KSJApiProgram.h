@@ -58,7 +58,7 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ_CalibrationReadout(int nIndex, float fCoefficient[14]);
 
 	KSJ_API  int __stdcall KSJ_ParamProgram(int nIndex);     // 将目前的主要参数保存至相机，再次重启KSJApi库时会自动加载并设置
-	KSJ_API  int __stdcall KSJ_ParamErease(int nIndex);      // 清除目前保存至相机的主要参数（预览视场、采集视场、曝光、增益）
+	KSJ_API  int __stdcall KSJ_ParamErase(int nIndex);      // 清除目前保存至相机的主要参数（预览视场、采集视场、曝光、增益）
 
 
 #ifdef __cplusplus

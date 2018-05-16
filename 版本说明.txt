@@ -576,3 +576,11 @@ v6.0.121.15
 下次启动KSJApi库时会自动加载，如果不想让KSJApi库自动加载，可以调用KSJ_ParamErease进行清除处理。清除之后，KSJApi会根据硬件的实际默认值进行加载。
 增加了I400相机的ROI功能（需升级硬件程序支持）。
 修正sensor_matrix。
+
+2018.5.15
+v6.0.121.16
+替换原有型号UC130C_MRYY,UC130M_MRYY为MUC120C_MRYYO, MUC120M_MRYYO。
+支持AR0130的设备MUC120C/M_MRYYO Alpha版本阶段。
+修改MU3I130C/M最大曝光范围0x0fff至0xFFFFFF。修正MU3I130C的Bayer模式,MU3I130C/M_IGYYO Beta阶段。
+KSJ_ParamProgram函数增加了对畸变校正使能的保存，保存版本有变化，之前的保存不再被支持。需要重新写入。
+KSJ_ParamErease名称改为KSJ_ParamErase
