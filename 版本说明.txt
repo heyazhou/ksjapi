@@ -584,3 +584,13 @@ v6.0.121.16
 修改MU3I130C/M最大曝光范围0x0fff至0xFFFFFF。修正MU3I130C的Bayer模式,MU3I130C/M_IGYYO Beta阶段。
 KSJ_ParamProgram函数增加了对畸变校正使能的保存，保存版本有变化，之前的保存不再被支持。需要重新写入。
 KSJ_ParamErease名称改为KSJ_ParamErase
+
+
+2018.5.21
+V6.0.121.17
+增加AR0130的AEC功能。
+增加了AR0135的AEC功能。
+AEC功能统一到KSJ_AEStart函数，如果硬件支持则硬件操作，不支持则软件操作。当硬件支持时，有些软件的设置会不再支持，比如KSJ_AESetMaxCount不可以设置，只能是连续自动。
+自动曝光回调函数每一帧都会调用，并返回硬件当前曝光。
+支持24LC128存储器类型的wb，ccm matrix烧写。
+Program Param增加了自动曝光设置的保存，需用户重新Program，老版本的烧写参数不能自动加载。
