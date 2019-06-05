@@ -25,6 +25,7 @@
 #define     RET_VERSION_ERROR       -15    // 版本错误
 #define     RET_TIMEOUT             -16    // 当设置读取超时之后不进行恢复时，采集函数会返回此数值，而不会返回恢复的状态
 #define     RET_DEVICECLOSED        -17
+#define     RET_STREAMNOSTART       -18
 
 
 #endif

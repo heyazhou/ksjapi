@@ -330,6 +330,19 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ_PreviewGetStatusEx(int nIndex, KSJ_PREVIEWSTATUS *pPreviewStatus, bool *pbParallel);
 	// Get Capture and Show Frame rate when Preview Parallel.
 	KSJ_API  int __stdcall KSJ_PreviewGetFrameRateEx(int nIndex, float *fFrameRateCapture, float *fFrameRateShow);
+	KSJ_API  int __stdcall KSJ_GetPreviewFrameCount(int nIndex, int *pnCaptureFrameCount, int *pnShowFrameCount);
+
+	enum KSJ_USBSPEED
+	{
+		USB_NOT_CONNECTED = 0x00,        /**< USB device not connected. */
+		USB_FULL_SPEED,                  /**< USB full speed. */
+		USB_HIGH_SPEED,                  /**< High speed. */
+		USB_SUPER_SPEED                  /**< Super speed. */
+	};
+
+	KSJ_API  int __stdcall KSJ_GetUsbState(int nIndex, KSJ_USBSPEED* pUSBSpeed);
+
+	KSJ_API  int __stdcall KSJ_RebootDevice(int nIndex);
 
 #ifdef __cplusplus
 }
