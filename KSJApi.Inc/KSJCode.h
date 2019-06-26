@@ -31,6 +31,7 @@
 #define     RET_STREAMNOSTART       -21
 #define     RET_3DNOTINIT           -22
 #define     RET_3DNOTSUPPORT        -23
+#define     RET_STOPSTREAMFIRST     -24
 
 
 #endif
