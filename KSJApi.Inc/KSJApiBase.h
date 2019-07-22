@@ -345,6 +345,8 @@ extern "C"{
 
 	KSJ_API  int __stdcall KSJ_RebootDevice(int nIndex);
 
+	KSJ_API  int __stdcall KSJ_MemCpy(void* des, void* src, int len);
+
 #ifdef __cplusplus
 }
 #endif
