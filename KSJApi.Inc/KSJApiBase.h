@@ -333,6 +333,9 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ_PreviewGetFrameRateEx(int nIndex, float *fFrameRateCapture, float *fFrameRateShow);
 	KSJ_API  int __stdcall KSJ_GetPreviewFrameCount(int nIndex, int *pnCaptureFrameCount, int *pnShowFrameCount);
 
+	KSJ_API  int __stdcall KSJ_SetBufferCount(int nIndex, int nCount);
+	KSJ_API  int __stdcall KSJ_GetBufferCount(int nIndex, int* pnCount);
+
 	enum KSJ_USBSPEED
 	{
 		USB_NOT_CONNECTED = 0x00,        /**< USB device not connected. */
@@ -345,7 +348,6 @@ extern "C"{
 
 	KSJ_API  int __stdcall KSJ_RebootDevice(int nIndex);
 
-	KSJ_API  int __stdcall KSJ_MemCpy(void* des, void* src, int len);
 
 #ifdef __cplusplus
 }

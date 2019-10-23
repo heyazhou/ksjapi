@@ -64,12 +64,13 @@ extern "C"{
     KSJ_API  int __stdcall KSJ_ReconnectDevice( int nChannel );
     KSJ_API  int __stdcall KSJ_ResetHost  ( int nChannel );
     KSJ_API  int __stdcall KSJ_SendPktEnd ( int nChannel );
-    KSJ_API  int __stdcall KSJ_CancelIo   ( int nChannel );
+	KSJ_API  int __stdcall KSJ_CancelIo(int nChannel);
 
 	// 只是简单的打开设备，此设备必须已经创建。
 	KSJ_API  int __stdcall KSJ_Open(int nChannel);
 	// 只是简单的关闭设备，不会销毁已经创建的设备对象。
 	KSJ_API  int __stdcall KSJ_Close(int nChannel);
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

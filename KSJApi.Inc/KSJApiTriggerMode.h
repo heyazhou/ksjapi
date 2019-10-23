@@ -85,6 +85,36 @@ extern "C"{
 	// Get timeout and recover at the same time
 	KSJ_API  int __stdcall KSJ_CaptureGetTimeOutEx(int nChannel, unsigned long *pdwTimeOut, bool *pbRecover);
 
+	enum KSJ_STARTENDMODE
+	{
+		KSJ_SEMODE_CONTINUE,
+		KSJ_SEMODE_RISINGEDGE,
+		KSJ_SEMODE_FALLINGEDGE,
+		KSJ_SEMODE_HIGHLEVEL,
+		KSJ_SEMODE_LOWLEVEL,
+		KSJ_SEMODE_SOFTWARE,
+	};
+	KSJ_API  int __stdcall KSJ_StartEndModeSet(int nChannel, KSJ_STARTENDMODE SeMode);
+	KSJ_API  int __stdcall KSJ_StartEndModeGet(int nChannel, KSJ_STARTENDMODE* pSeMode);
+
+	// Capture will delay this time (unit:100us) after catpreu start signal.
+	KSJ_API  int __stdcall KSJ_CaptureStartDelayGetRange(int nChannel, unsigned short *wMin, unsigned short *wMax);
+	KSJ_API  int __stdcall KSJ_CaptureStartDelaySet(int nChannel, unsigned short wDelay);
+	KSJ_API  int __stdcall KSJ_CaptureStartDelayGet(int nChannel, unsigned short *pwDelay);
+
+	// Capture start signal filter, unit:1us (0 is 200ns).
+	KSJ_API  int __stdcall KSJ_CaptureStartFilterRange(int nChannel, unsigned short *wMin, unsigned short *wMax);
+	KSJ_API  int __stdcall KSJ_CaptureStartFilterSet(int nChannel, unsigned short wFilter);
+	KSJ_API  int __stdcall KSJ_CaptureStartFilterGet(int nChannel, unsigned short *pwFilter);
+
+	//
+	KSJ_API  int __stdcall KSJ_CaptureMultiLineRange(int nChannel, unsigned short *wMin, unsigned short *wMax);
+	KSJ_API  int __stdcall KSJ_CaptureMultiLineSet(int nChannel, unsigned short wMultiLine);
+	KSJ_API  int __stdcall KSJ_CaptureMultiLineGet(int nChannel, unsigned short *pwMultiLine);
+
+	// KSJ_SEMODE_SOFTWARE mode: begin capture
+	KSJ_API  int __stdcall KSJ_CaptureSoftwareStart(int nChannel);
+
 #ifdef __cplusplus
 }
 #endif

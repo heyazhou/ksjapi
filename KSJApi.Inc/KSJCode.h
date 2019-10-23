@@ -32,6 +32,7 @@
 #define     RET_3DNOTINIT           -22
 #define     RET_3DNOTSUPPORT        -23
 #define     RET_STOPSTREAMFIRST     -24
+#define     RET_DATAIO_ERROR        -25
 
 
 #endif
