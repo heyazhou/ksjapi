@@ -85,6 +85,11 @@ extern "C"{
 	// Get timeout and recover at the same time
 	KSJ_API  int __stdcall KSJ_CaptureGetTimeOutEx(int nChannel, unsigned long *pdwTimeOut, bool *pbRecover);
 
+	// 设置外触发周期：即多少个外触发信号，触发采集一帧图像
+	KSJ_API  int __stdcall KSJ_TriggerSignalPeriodGetRange(int nChannel, float * fMin, float *fMax);
+	KSJ_API  int __stdcall KSJ_TriggerSignalPeriodSet(int nChannel, float fPeriodCount);
+	KSJ_API  int __stdcall KSJ_TriggerSignalPeriodGet(int nChannel, float* pfPeriodCount);
+
 	enum KSJ_STARTENDMODE
 	{
 		KSJ_SEMODE_CONTINUE,
