@@ -29,6 +29,8 @@ extern "C"{
 
 	KSJ_API  int __stdcall KSJ_3DCapturePointCloudData(int nChannel, unsigned char* pImageData, float* pfZ, float* pfX);
 
+	KSJ_API  int __stdcall KSJ_3DClcPointCloudData(int nChannel, unsigned char* pImageData, float* pfZ, float* pfX);
+
 #ifdef __cplusplus
 }
 #endif
