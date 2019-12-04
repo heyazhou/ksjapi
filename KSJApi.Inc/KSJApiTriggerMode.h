@@ -102,7 +102,7 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ_StartEndModeSet(int nChannel, KSJ_STARTENDMODE SeMode);
 	KSJ_API  int __stdcall KSJ_StartEndModeGet(int nChannel, KSJ_STARTENDMODE* pSeMode);
 
-	// Capture will delay this time (unit:100us) after catpreu start signal.
+	// Capture will delay this count signals after start signal.
 	KSJ_API  int __stdcall KSJ_CaptureStartDelayGetRange(int nChannel, unsigned short *wMin, unsigned short *wMax);
 	KSJ_API  int __stdcall KSJ_CaptureStartDelaySet(int nChannel, unsigned short wDelay);
 	KSJ_API  int __stdcall KSJ_CaptureStartDelayGet(int nChannel, unsigned short *pwDelay);
