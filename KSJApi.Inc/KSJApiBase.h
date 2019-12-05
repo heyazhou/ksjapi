@@ -41,15 +41,15 @@ extern "C"{
 		KSJ_UC500M_MRNN,       // 9 Guass2
 		KSJ_UC500C_MRYN,       // 10 Guass2
 		KSJ_UC500M_MRYN,       // 11 Guass2
-		KSJ_UC320C_OCR,        // 12 Not Support
+		KSJ_UC320_OCR,        // 12 Not Support
 		KSJ_UC900C_MRNN,       // 13 Not Support
 		KSJ_UC1000C_MRNN,      // 14 Not Support
 		KSJ_UC900C_MRYN,       // 15 Not Support
 		KSJ_UC1000C_MRYN,      // 16 Not Support
-		KSJ_MUC120C_MRYYO,     // 17 Jelly2 V6.0.121.16
-		KSJ_MUC120M_MRYYO,     // 18 Jelly2 V6.0.121.16
-		KSJ_UD140C_SGNN,       // 19 Not Support
-		KSJ_UD140M_SGNN,       // 20 Not Support
+		KSJ_UC130C_MRYYO,     // 17 Jelly2 V6.0.121.16
+		KSJ_UC130M_MRYYO,     // 18 Jelly2 V6.0.121.16
+		KSJ_UD140C_SRNN,       // 19 Not Support
+		KSJ_UD140M_SRNN,       // 20 Not Support
 		KSJ_UC36C_MGNN,        // 21 Elanus2 Not Support
 		KSJ_UC36M_MGNN,        // 22 Elanus2 Not Support
 		KSJ_UC36C_MGYN,        // 23 Elanus2 Not Support
@@ -151,14 +151,14 @@ extern "C"{
 		KSJ_MU3I130M_IGYYO,    // 118
 		KSJ_MU3S321C_SGYYO,    // 119
 		KSJ_MU3S321M_SGYYO,     // 120
-		DT_CB_MU3S641M_SRYYO,
-		DT_CB_MU3S1201M_SRYYO,
-		DT_CB_MU3HS2001M_SRYYO,
-		DT_CB_MU3S211M_SRYYO,
-		DT_CB_MU3C36C_MGYY,
-		DT_CB_MU3C36M_MGYY,
-		DT_CB_MU3HS1200C_SRYYO,
-		DT_CB_MU3HS1200M_SRYYO
+		KSJ_MU3S641M_SRYYO,
+		KSJ_MU3S1201M_SRYYO,
+		KSJ_MU3HS2001M_SRYYO,
+		KSJ_MU3S211M_SRYYO,
+		KSJ_MU3C36C_MGYY,
+		KSJ_MU3C36M_MGYY,
+		KSJ_MU3HS1200C_SRYYO,
+		KSJ_MU3HS1200M_SRYYO
 
 	};
 	// Enable or Disable Log output

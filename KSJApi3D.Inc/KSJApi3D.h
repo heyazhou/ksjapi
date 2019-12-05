@@ -191,6 +191,11 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ3D_GetExternalTriggerRate(int nChannel, float *pfExternalTriggerRateHz);
 
 
+	KSJ_API  int __stdcall KSJ3D_GetExternalTriggerRate(int nChannel, float *pfExternalTriggerRateHz);
+
+
+	KSJ_API  int __stdcall KSJ3D_HelperSaveToPCD(int nWidth, int nHeight, float *pfX, float *pfY, float *pfZ, const TCHAR *pszFileName);
+
 	// KSJ3D_StartAcquisition启动后不允许调用
 	// KSJ_API  int __stdcall KSJ3D_CaptureLiveImage(int nChannel, unsigned char *pLiveImageData, int *pnWidth, int *pnHeight, int *pnBitCount);
 	// 传入image数据，计算profile标定后的测量数据，KSJ3D_StartAcquisition启动后不允许调用
