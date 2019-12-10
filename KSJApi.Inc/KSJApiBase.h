@@ -41,13 +41,13 @@ extern "C"{
 		KSJ_UC500M_MRNN,       // 9 Guass2
 		KSJ_UC500C_MRYN,       // 10 Guass2
 		KSJ_UC500M_MRYN,       // 11 Guass2
-		KSJ_UC320_OCR,        // 12 Not Support
+		KSJ_UC320_OCR,         // 12 Not Support
 		KSJ_UC900C_MRNN,       // 13 Not Support
 		KSJ_UC1000C_MRNN,      // 14 Not Support
 		KSJ_UC900C_MRYN,       // 15 Not Support
 		KSJ_UC1000C_MRYN,      // 16 Not Support
-		KSJ_UC130C_MRYYO,     // 17 Jelly2 V6.0.121.16
-		KSJ_UC130M_MRYYO,     // 18 Jelly2 V6.0.121.16
+		KSJ_MUC120C_MRYYO,     // 17 Jelly2 V6.0.121.16
+		KSJ_MUC120M_MRYYO,     // 18 Jelly2 V6.0.121.16
 		KSJ_UD140C_SRNN,       // 19 Not Support
 		KSJ_UD140M_SRNN,       // 20 Not Support
 		KSJ_UC36C_MGNN,        // 21 Elanus2 Not Support
