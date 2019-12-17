@@ -190,10 +190,6 @@ extern "C"{
 	// 不考虑丢帧，根据水印的计数和时间计算
 	KSJ_API  int __stdcall KSJ3D_GetExternalTriggerRate(int nChannel, float *pfExternalTriggerRateHz);
 
-
-	KSJ_API  int __stdcall KSJ3D_GetExternalTriggerRate(int nChannel, float *pfExternalTriggerRateHz);
-
-
 	KSJ_API  int __stdcall KSJ3D_HelperSaveToPCD(int nWidth, int nHeight, float *pfX, float *pfY, float *pfZ, const TCHAR *pszFileName);
 
 	// KSJ3D_StartAcquisition启动后不允许调用
