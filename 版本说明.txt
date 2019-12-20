@@ -1,3 +1,7 @@
+2019.12.19
+v6.0.122.51
+修正3D profiles numbers 错误，修正StartStream/StopStream过程
+
 2019.12.16
 v6.0.122.50
 修正3D数据回调参数错误
