@@ -258,6 +258,8 @@ extern "C"{
 		KSJ_SKIP8 
 	};
 	///////////////////////////////////////////Capture/////////////////////////////////
+	KSJ_API  int __stdcall KSJ_CheckFieldOfView(int nIndex, int nColStart, int nRowStart, int nColSize, int nRowSize, KSJ_ADDRESSMODE AmCol, KSJ_ADDRESSMODE AmRow);
+
 	// Get The Max Capture FOV( Field Of View £© supported by device
 	KSJ_API  int __stdcall KSJ_CaptureGetDefaultFieldOfView(int nIndex, int *pnColStart, int *pnRowStart, int *pnColSize, int *pnRowSize, KSJ_ADDRESSMODE *pColAddressMode, KSJ_ADDRESSMODE *pRowAddressMode);
 	// Set Capture FOV/AOI( Field Of View / Area Of Interesting £©

@@ -1,6 +1,11 @@
+2019.12.30
+v6.0.122.52
+添加MU3S641M相机，修正一些相机的FOV设置问题（非线性相机行列Size至少是2的倍数）
+
 2019.12.19
 v6.0.122.51
 修正3D profiles numbers 错误，修正StartStream/StopStream过程
+用户数据录像接口从Manager切换到Device，能够多通道录像
 
 2019.12.16
 v6.0.122.50
