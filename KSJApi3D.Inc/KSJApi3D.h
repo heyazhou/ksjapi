@@ -157,6 +157,9 @@ extern "C"{
 	KSJ_API  int __stdcall KSJ3D_StopAcquisition(int nChannel);
 
 
+	// 是否仅返回有小点（Z值为-1000的时候，为无效）
+	KSJ_API int __stdcall KSJ3D_SetObliterateInvalidData(int nChannel, bool bObliterate);
+	KSJ_API int __stdcall KSJ3D_GetObliterateInvalidData(int nChannel, bool* bObliterate);
 
 	// nThreadhold [0-255], 灰度值下限，用于计算profile的阈值
 	KSJ_API  int __stdcall KSJ3D_Set3DLaserLineBrightnessThreshold(int nChannel, int nThreshold);
