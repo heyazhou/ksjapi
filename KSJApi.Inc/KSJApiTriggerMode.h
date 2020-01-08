@@ -51,6 +51,7 @@ extern "C"{
 
 
 	// Fixed Frame Rate when in KSJ_TRIGGER_FIXFRAMERATE/KSJ_TRIGGER_HIGHLOWFIXFRAMERATE mode. Maybe Return RET_NOTSUPPORT.
+	KSJ_API  int __stdcall KSJ_GetFixedFrameRateRang(int nChannel, float* pfRateMin, float* pfRateMax);
 	KSJ_API  int __stdcall KSJ_SetFixedFrameRateEx(int nChannel, float fFrameRate);
 	KSJ_API  int __stdcall KSJ_GetFixedFrameRateEx(int nChannel, float *pfFrameRate);
 
