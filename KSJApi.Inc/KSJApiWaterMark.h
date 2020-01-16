@@ -26,6 +26,7 @@ KSJ_API  int __stdcall KSJ_WaterMarkSetEnable(int nChannel, bool bEnable);
 KSJ_API  int __stdcall KSJ_WaterMarkGetEnable(int nChannel, bool *pbEnable);
 
 KSJ_API  int __stdcall KSJ_WaterMarkGetInfo(int nChannel, unsigned short *pwId, unsigned long *pdwTimestampLowPart, unsigned long *pdwTimestampHighPart);
+KSJ_API  int __stdcall KSJ_WaterMarkGetInfoEx(int nChannel, unsigned int *pnId, unsigned long *pdwTimestampLowPart, unsigned long *pdwTimestampHighPart, unsigned int* pnExposure, unsigned short* pwGain);
 
 #ifdef __cplusplus
 }
